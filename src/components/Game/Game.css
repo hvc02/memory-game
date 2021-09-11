@@ -1,0 +1,12 @@
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  justify-items: center;
+  align-items: stretch;
+  gap: 1rem;
+  margin: 0 auto;
+  width: 800px;
+  height: 700px;
+  perspective: 100%;
+}
